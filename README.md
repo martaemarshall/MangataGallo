@@ -1,6 +1,7 @@
 # Mangata &amp; Gallo -  Coursera project 2023
 <img src="img/small-black-icon.png" alt="Mangata &amp; Gallo">
-Creator: Martae Marshall
+Creator: Martae Marshall<br>
+Working URL: https://martaemarshall.github.io/MangataGallo/
 
 ## Key focuses:<br>
 <ul>
