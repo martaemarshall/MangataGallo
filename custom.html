@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Custom Design &#x7C; Mangata &amp; Gallo</title>
+    <meta name="description" content="A brief description">
+    <meta name="author" content="Mangata &amp; Gallo Luxury Jewelry">
+
+    <!--Open Graph Protocol-->
+    <!--
+    <meta property="og:title" content="A brief description">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.mysite">
+    <meta property="og:description" content="A brief description">
+    <meta property="og:image" content="image.png">
+    -->
+
+    <link rel="icon" href="img/favicon.ico">
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="img/large-black-icon.png" alt="Mangata &amp; Gallo">
+        </a>
+    </header>
+    <div id="menu-bar">
+        <div id="menu" onclick="onClickMenu()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+        </div>
+    </div>
+    <nav id="nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="custom.html">Customize</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+   <main>
+        <section>
+            <article class="page-banner">
+                <h1>Custom Rings at M&period;G&period;</h1>
+                <p>We at Mangata &amp; Gallo offer options for you to create that perfect ring&period; Please fill out the form with
+                    your infomration and we will contact you with price and a production timeline&period;</p>
+            </article>
+        </section>
+        <section>
+            <form id="custom_form" method="GET">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="fname" required>
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lname"required>
+
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="stone">Select Your Stone</label>
+                <select name="stone" id="stone" required>
+                    <option id="sapphire">Sapphire</option>
+                    <option id="ruby">Ruby</option>
+                    <option id="diamond">Diamond</option>
+                    <option id="jade">Jade</option>
+                    <option id="emerald">Emerald</option>
+                </select>
+
+                <button type="submit" value="submit">Submit Form</button>
+            </form>
+        </section>
+   </main> 
+   <footer>
+        <img src="img/small-white-icon.png">
+        <div>
+            <p>Copyright&copy; Mangata &amp; Gallo</p>
+            <p>www.mg.com</p>
+        </div>
+    </footer>
+    <script src="./js/scripts.js"></script>
+</body>
+</html>
